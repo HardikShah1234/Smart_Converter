@@ -233,7 +233,7 @@ fun ListContent(
                         .fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround
                 ) {
                     Text(
-                        text = "Etherium",
+                        text = "Ethereum",
                         style = MaterialTheme.typography.h6,
                         textAlign = TextAlign.Left
                     )
