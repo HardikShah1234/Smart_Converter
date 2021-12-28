@@ -11,14 +11,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 private val DarkColorPalette = darkColors(
-    primary = Orange_700,
-    primaryVariant = Orange_700,
+    primary = Aqua_700,
+    primaryVariant = Aqua_700,
     onPrimary = White_900
 )
 
 private val LightColorPalette = lightColors(
-    primary = Orange_700,
-    primaryVariant = Orange_700,
+    primary = Aqua_700,
+    primaryVariant = Aqua_700,
     secondary = White_900
 
     /* Other default colors to override

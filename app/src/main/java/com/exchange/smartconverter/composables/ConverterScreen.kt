@@ -22,8 +22,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.LifecycleOwner
 import com.exchange.smartconverter.models.Rates
+import com.exchange.smartconverter.ui.theme.Aqua_700
 import com.exchange.smartconverter.ui.theme.Label_Color
-import com.exchange.smartconverter.ui.theme.Orange_700
 import com.exchange.smartconverter.ui.theme.White_900
 import com.exchange.smartconverter.utils.Constants.Companion.APP_BAR_TITLE
 import com.exchange.smartconverter.utils.NetworkResult
@@ -46,7 +46,7 @@ fun ListScreen(
                     Text(
                         text = APP_BAR_TITLE,
                         fontSize = 24.sp,
-                        color = if (isDarkMode) White_900 else Orange_700,
+                        color = if (isDarkMode) White_900 else Aqua_700,
                         style = TextStyle(
                             fontWeight = FontWeight.Black,
                             lineHeight = 30.sp
@@ -451,7 +451,7 @@ fun ListContent(
                     text = convertedAmount.value,
                     modifier = Modifier.fillMaxWidth(),
                     fontSize = 30.sp,
-                    color = Orange_700,
+                    color = Aqua_700,
                     style = TextStyle(
                         fontWeight = FontWeight.Bold, textAlign = TextAlign.Center
                     )
